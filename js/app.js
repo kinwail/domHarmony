@@ -86,10 +86,26 @@ ageElem[1].innerHTML = '68';
 
  //Final Boss Create your own profile into the page:
  //change image to match your profile
+ var imageElem =  document.getElementsByClassName('other')
+ imageElem[2].src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR39FZJ-A1LlGYUgl2oLZZrHIhHDnd1tkANhh7IUR2oF8OLmVneVw';
+
  //div with class name of firstName
+
+ firstNameBox[2].innerHTML = 'Jasen Kaya';
+
  //div with class name of otherAge
+
+ ageElem[2].innerHTML = '34';
+
  //div with class name of status
+ 
+ statusElem[2].innerHTML = 'Taken';
+ 
  //div with class anem of Motto
+
+ var mottoElem = document.getElementsByClassName('motto');
+
+ mottoElem[2].innerHTML = '"Dis buggah wen crack dis n dat no ack"'
 
 
 
